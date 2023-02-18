@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="contact Us, contact-info, contact">
+  <meta name="author" content="christopher chacón">
+  <link rel="stylesheet" href="main.css">
+  <title>Form Practice</title>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/4d30898eec.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+  </style>
+  <!-- Animated.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+
+  <div class="content">
+
+    <h1  class="animate__animated animate__tada logo ">Contact <span>Us</span></h1>
+
+    <div class="contact-wrapper">
+      <div class="contact-form">
+        <h3>Contact us</h3>
+        <form action="">
+          <p>
+            <label for="Name">Fullname</label>
+            <input type="text" name="Fullname" id="Name" required>
+          </p>
+          <p>
+            <label for="Email">Email Addres</label>
+            <input type="email" name="Email Addres" id="Email" required>
+          </p>
+          <p>
+            <label for="Phone">Phone Number</label>
+            <input type="tel" name="Phone Number" id="Phone" pattern="[0-9]{8}">
+          </p>
+          <p>
+            <label for="Affair">Affair</label>
+            <input type="text" name="Affair" id="Affair" minlength="5">
+          </p>
+          <p class="block">
+            <label for="Message">Message</label>
+            <textarea name="Message" id="Message" rows="3"></textarea required>
+          </p>
+          <p class="block">
+            <button type="submit">Send</button>
+          </p>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <h4>More info</h4>
+
+          <ul>
+            <li><i class="fa-solid fa-location-dot"></i>Baker Street</li>
+            <li><i class="fa-solid fa-phone"></i>(111) 111 111 111</li>
+            <li><i class="fa-solid fa-envelope"></i>Contact@website.com</li>
+          </ul>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam vel, totam placeat dicta asperiores architecto!</p>
+
+        <p>Company.com</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
